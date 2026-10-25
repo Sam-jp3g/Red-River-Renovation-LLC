@@ -1,0 +1,906 @@
+{
+  "categories": [
+    "Room Additions",
+    "Kitchens",
+    "Ship Lap",
+    "Bathrooms",
+    "Screen Porches",
+    "Decks",
+    "Gym Builds",
+    "Creative Projects"
+  ],
+  "projects": [
+    {
+      "folder": "Studio",
+      "slug": "studio",
+      "category": "Room Additions",
+      "title": "Custom Studio",
+      "photos": [
+        {
+          "file": "photos/studio/01.webp",
+          "original": "IMG_7517.jpg"
+        },
+        {
+          "file": "photos/studio/02.webp",
+          "original": "bb4c4a53-42ac-4d62-b6d5-f48793c30b14.webp"
+        },
+        {
+          "file": "photos/studio/03.webp",
+          "original": "IMG_7518.jpg"
+        },
+        {
+          "file": "photos/studio/04.webp",
+          "original": "20211101_134431.jpg"
+        },
+        {
+          "file": "photos/studio/05.webp",
+          "original": "20220827_153041.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "McPeak Addition",
+      "slug": "mcpeak-addition",
+      "category": "Room Additions",
+      "title": "McPeak Home Addition",
+      "photos": [
+        {
+          "file": "photos/mcpeak-addition/01.webp",
+          "original": "IMG_1449.jpg.jpeg.jpg"
+        },
+        {
+          "file": "photos/mcpeak-addition/02.webp",
+          "original": "20230908_164553.jpg"
+        },
+        {
+          "file": "photos/mcpeak-addition/03.webp",
+          "original": "IMG_1450.jpg.jpeg.jpg"
+        },
+        {
+          "file": "photos/mcpeak-addition/04.webp",
+          "original": "20230824_100422.jpg"
+        },
+        {
+          "file": "photos/mcpeak-addition/05.webp",
+          "original": "IMG_1448.jpg.jpeg.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Josh Sunroom",
+      "slug": "josh-sunroom",
+      "category": "Room Additions",
+      "title": "Sunroom Addition",
+      "photos": [
+        {
+          "file": "photos/josh-sunroom/01.webp",
+          "original": "20230723_143217.jpg"
+        },
+        {
+          "file": "photos/josh-sunroom/02.webp",
+          "original": "20241002_115203.jpg"
+        },
+        {
+          "file": "photos/josh-sunroom/03.webp",
+          "original": "20230723_161700.jpg"
+        },
+        {
+          "file": "photos/josh-sunroom/04.webp",
+          "original": "20241002_115151.jpg"
+        },
+        {
+          "file": "photos/josh-sunroom/05.webp",
+          "original": "20230712_133818.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Casework",
+      "slug": "custom-casework",
+      "category": "Kitchens",
+      "title": "Custom Cabinetry & Casework",
+      "photos": [
+        {
+          "file": "photos/custom-casework/01.webp",
+          "original": "20210812_125149.jpg"
+        },
+        {
+          "file": "photos/custom-casework/02.webp",
+          "original": "20240615_144354.jpg"
+        },
+        {
+          "file": "photos/custom-casework/03.webp",
+          "original": "20220420_105206.jpg"
+        },
+        {
+          "file": "photos/custom-casework/04.webp",
+          "original": "20240626_200747.jpg"
+        },
+        {
+          "file": "photos/custom-casework/05.webp",
+          "original": "20240619_173407.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Hill Kitchen",
+      "slug": "hill-kitchen",
+      "category": "Kitchens",
+      "title": "Hill Kitchen Renovation",
+      "photos": [
+        {
+          "file": "photos/hill-kitchen/01.webp",
+          "original": "20230328_183032.jpg"
+        },
+        {
+          "file": "photos/hill-kitchen/02.webp",
+          "original": "IMG_3377.jpg"
+        },
+        {
+          "file": "photos/hill-kitchen/03.webp",
+          "original": "IMG_3374.jpg"
+        },
+        {
+          "file": "photos/hill-kitchen/04.webp",
+          "original": "IMG_3378.jpg"
+        }
+      ],
+      "skipped": [
+        [
+          "IMG_3376.jpg",
+          "too small"
+        ]
+      ]
+    },
+    {
+      "folder": "root",
+      "slug": "beach-wood-paneling",
+      "category": "Ship Lap",
+      "title": "Coastal Wood Paneling",
+      "photos": [
+        {
+          "file": "photos/beach-wood-paneling/01.webp",
+          "original": "Beach Dr Wood Paneling.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Ship Lap Ceiling",
+      "slug": "ship-lap-ceiling",
+      "category": "Ship Lap",
+      "title": "Shiplap Ceiling",
+      "photos": [
+        {
+          "file": "photos/ship-lap-ceiling/01.webp",
+          "original": "IMG_2032.jpg"
+        },
+        {
+          "file": "photos/ship-lap-ceiling/02.webp",
+          "original": "20230428_140209.jpg"
+        },
+        {
+          "file": "photos/ship-lap-ceiling/03.webp",
+          "original": "20230427_150722.jpg"
+        },
+        {
+          "file": "photos/ship-lap-ceiling/04.webp",
+          "original": "IMG_2033.jpg"
+        },
+        {
+          "file": "photos/ship-lap-ceiling/05.webp",
+          "original": "20230428_140225.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Scott Bathroom",
+      "slug": "scott-bathroom",
+      "category": "Bathrooms",
+      "title": "Bathroom Renovation",
+      "photos": [
+        {
+          "file": "photos/scott-bathroom/02.webp",
+          "original": "IMG_5921.jpg"
+        },
+        {
+          "file": "photos/scott-bathroom/01.webp",
+          "original": "Finish Shiplap Bathroom.jpg"
+        },
+        {
+          "file": "photos/scott-bathroom/03.webp",
+          "original": "20230615_125916.jpg"
+        },
+        {
+          "file": "photos/scott-bathroom/04.webp",
+          "original": "IMG_20230629_203739_955.jpg"
+        }
+      ],
+      "skipped": [
+        [
+          "IMG_20230629_203740_151.jpg",
+          "unreadable image: cannot identify image file '/mnt/data/rrr_work/source/scott-bathroom/IMG_20"
+        ]
+      ]
+    },
+    {
+      "folder": "Joyce Outdoor Shower",
+      "slug": "joyce-outdoor-shower",
+      "category": "Bathrooms",
+      "title": "Outdoor Shower",
+      "photos": [
+        {
+          "file": "photos/joyce-outdoor-shower/01.webp",
+          "original": "20220808_140358.jpg"
+        },
+        {
+          "file": "photos/joyce-outdoor-shower/02.webp",
+          "original": "20220803_182506.jpg"
+        },
+        {
+          "file": "photos/joyce-outdoor-shower/03.webp",
+          "original": "20220808_140418.jpg"
+        },
+        {
+          "file": "photos/joyce-outdoor-shower/04.webp",
+          "original": "20220808_140411.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "49th st covered Porch",
+      "slug": "49th-covered-porch",
+      "category": "Screen Porches",
+      "title": "49th St Covered Porch",
+      "photos": [
+        {
+          "file": "photos/49th-covered-porch/01.webp",
+          "original": "20221108_145029.jpg"
+        },
+        {
+          "file": "photos/49th-covered-porch/02.webp",
+          "original": "20221011_111359.jpg"
+        },
+        {
+          "file": "photos/49th-covered-porch/03.webp",
+          "original": "20221021_172917.jpg"
+        },
+        {
+          "file": "photos/49th-covered-porch/04.webp",
+          "original": "20221013_131521.jpg"
+        },
+        {
+          "file": "photos/49th-covered-porch/05.webp",
+          "original": "20221108_150456.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Beadle Screen",
+      "slug": "beadle-screen",
+      "category": "Screen Porches",
+      "title": "Beadle Screen Porch",
+      "photos": [
+        {
+          "file": "photos/beadle-screen/01.webp",
+          "original": "20230926_092219.jpg"
+        },
+        {
+          "file": "photos/beadle-screen/02.webp",
+          "original": "20230926_091747.jpg"
+        },
+        {
+          "file": "photos/beadle-screen/03.webp",
+          "original": "20230926_091816.jpg"
+        },
+        {
+          "file": "photos/beadle-screen/04.webp",
+          "original": "20230922_162714.jpg"
+        },
+        {
+          "file": "photos/beadle-screen/05.webp",
+          "original": "20230921_125945.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Alpahretta Deck",
+      "slug": "alpharetta-deck",
+      "category": "Decks",
+      "title": "Alpharetta Deck",
+      "photos": [
+        {
+          "file": "photos/alpharetta-deck/04.webp",
+          "original": "20230528_090949.jpg"
+        },
+        {
+          "file": "photos/alpharetta-deck/01.webp",
+          "original": "20230602_221738.jpg"
+        },
+        {
+          "file": "photos/alpharetta-deck/02.webp",
+          "original": "20230523_175238.jpg"
+        },
+        {
+          "file": "photos/alpharetta-deck/03.webp",
+          "original": "20230528_090521.jpg"
+        },
+        {
+          "file": "photos/alpharetta-deck/05.webp",
+          "original": "20230502_120434.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Brian Deck",
+      "slug": "brian-deck",
+      "category": "Decks",
+      "title": "Brian Deck",
+      "photos": [
+        {
+          "file": "photos/brian-deck/01.webp",
+          "original": "20250702_163700.jpg"
+        },
+        {
+          "file": "photos/brian-deck/02.webp",
+          "original": "20250702_163718.jpg"
+        },
+        {
+          "file": "photos/brian-deck/03.webp",
+          "original": "20250624_164115.jpg"
+        },
+        {
+          "file": "photos/brian-deck/04.webp",
+          "original": "20250702_163710.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Decks",
+      "slug": "deck-gallery",
+      "category": "Decks",
+      "title": "Deck Construction",
+      "photos": [
+        {
+          "file": "photos/deck-gallery/03.webp",
+          "original": "20210226_141720.jpg"
+        },
+        {
+          "file": "photos/deck-gallery/01.webp",
+          "original": "20210208_101720.jpg"
+        },
+        {
+          "file": "photos/deck-gallery/02.webp",
+          "original": "20210226_141710.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Mickey Deck Repair",
+      "slug": "mickey-deck",
+      "category": "Decks",
+      "title": "Deck Repair & Restoration",
+      "photos": [
+        {
+          "file": "photos/mickey-deck/05.webp",
+          "original": "20220708_112032.jpg"
+        },
+        {
+          "file": "photos/mickey-deck/01.webp",
+          "original": "20220603_122516.jpg"
+        },
+        {
+          "file": "photos/mickey-deck/02.webp",
+          "original": "20220625_161322.jpg"
+        },
+        {
+          "file": "photos/mickey-deck/03.webp",
+          "original": "20220706_151241.jpg"
+        },
+        {
+          "file": "photos/mickey-deck/04.webp",
+          "original": "20220706_103026.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Leslie Deck",
+      "slug": "leslie-deck",
+      "category": "Decks",
+      "title": "Leslie Deck",
+      "photos": [
+        {
+          "file": "photos/leslie-deck/04.webp",
+          "original": "20251224_112704.jpg"
+        },
+        {
+          "file": "photos/leslie-deck/01.webp",
+          "original": "20251218_173953_0000.png"
+        },
+        {
+          "file": "photos/leslie-deck/02.webp",
+          "original": "20251224_112825.jpg"
+        },
+        {
+          "file": "photos/leslie-deck/03.webp",
+          "original": "20251224_112752.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Mom Deck",
+      "slug": "mom-deck",
+      "category": "Decks",
+      "title": "Residential Deck Renovation",
+      "photos": [
+        {
+          "file": "photos/mom-deck/01.webp",
+          "original": "20260525_171747.jpg"
+        },
+        {
+          "file": "photos/mom-deck/02.webp",
+          "original": "IMG-20260803-WA0021.jpg"
+        },
+        {
+          "file": "photos/mom-deck/03.webp",
+          "original": "IMG-20260803-WA0011.jpg"
+        },
+        {
+          "file": "photos/mom-deck/04.webp",
+          "original": "20260512_135253.jpg"
+        },
+        {
+          "file": "photos/mom-deck/05.webp",
+          "original": "IMG-20260803-WA0015.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Southport Deck Expansion",
+      "slug": "southport-deck",
+      "category": "Decks",
+      "title": "Southport Deck Expansion",
+      "photos": [
+        {
+          "file": "photos/southport-deck/05.webp",
+          "original": "20211214_135328.jpg"
+        },
+        {
+          "file": "photos/southport-deck/01.webp",
+          "original": "20211218_154235.jpg"
+        },
+        {
+          "file": "photos/southport-deck/02.webp",
+          "original": "20211218_154247.jpg"
+        },
+        {
+          "file": "photos/southport-deck/03.webp",
+          "original": "20211218_154256.jpg"
+        },
+        {
+          "file": "photos/southport-deck/04.webp",
+          "original": "20211206_154618.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Tad Deck",
+      "slug": "tad-deck",
+      "category": "Decks",
+      "title": "Tad Deck",
+      "photos": [
+        {
+          "file": "photos/tad-deck/02.webp",
+          "original": "20220529_170722.jpg"
+        },
+        {
+          "file": "photos/tad-deck/01.webp",
+          "original": "20220513_173550.jpg"
+        },
+        {
+          "file": "photos/tad-deck/03.webp",
+          "original": "20220529_170600.jpg"
+        },
+        {
+          "file": "photos/tad-deck/04.webp",
+          "original": "20220505_160603.jpg"
+        },
+        {
+          "file": "photos/tad-deck/05.webp",
+          "original": "20220529_170653.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "ZZZ Gym Build",
+      "slug": "gym-build",
+      "category": "Gym Builds",
+      "title": "Custom Gym Build",
+      "photos": [
+        {
+          "file": "photos/gym-build/02.webp",
+          "original": "OKI Fitness.jpg"
+        },
+        {
+          "file": "photos/gym-build/01.webp",
+          "original": "Armory.jpg"
+        },
+        {
+          "file": "photos/gym-build/03.webp",
+          "original": "20220516_124534.jpg"
+        },
+        {
+          "file": "photos/gym-build/04.webp",
+          "original": "20230624_120821.jpg"
+        },
+        {
+          "file": "photos/gym-build/05.webp",
+          "original": "20231009_124341.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Joyce Shed",
+      "slug": "joyce-shed",
+      "category": "Creative Projects",
+      "title": "Backyard Shed",
+      "photos": [
+        {
+          "file": "photos/joyce-shed/01.webp",
+          "original": "20230417_090246.jpg"
+        },
+        {
+          "file": "photos/joyce-shed/02.webp",
+          "original": "20230515_162625.jpg"
+        },
+        {
+          "file": "photos/joyce-shed/03.webp",
+          "original": "20230405_143020.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Bartlett Patio",
+      "slug": "bartlett-patio",
+      "category": "Creative Projects",
+      "title": "Bartlett Patio",
+      "photos": [
+        {
+          "file": "photos/bartlett-patio/01.webp",
+          "original": "20211116_142114.jpg"
+        },
+        {
+          "file": "photos/bartlett-patio/02.webp",
+          "original": "20211120_145934.jpg"
+        },
+        {
+          "file": "photos/bartlett-patio/03.webp",
+          "original": "20220404_161058.jpg"
+        },
+        {
+          "file": "photos/bartlett-patio/04.webp",
+          "original": "20220323_161529.jpg"
+        },
+        {
+          "file": "photos/bartlett-patio/05.webp",
+          "original": "20220412_145601.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Ray McBride Ceiling Trimout",
+      "slug": "ceiling-trim",
+      "category": "Creative Projects",
+      "title": "Ceiling Trim & Finish Work",
+      "photos": [
+        {
+          "file": "photos/ceiling-trim/01.webp",
+          "original": "20210914_162047.jpg"
+        },
+        {
+          "file": "photos/ceiling-trim/02.webp",
+          "original": "20210914_162105.jpg"
+        },
+        {
+          "file": "photos/ceiling-trim/03.webp",
+          "original": "20210914_162039.jpg"
+        },
+        {
+          "file": "photos/ceiling-trim/04.webp",
+          "original": "20210914_162322.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Brad Cabana",
+      "slug": "brad-cabana",
+      "category": "Creative Projects",
+      "title": "Custom Cabana",
+      "photos": [
+        {
+          "file": "photos/brad-cabana/01.webp",
+          "original": "20231215_172437.jpg"
+        },
+        {
+          "file": "photos/brad-cabana/02.webp",
+          "original": "20231215_172416.jpg"
+        },
+        {
+          "file": "photos/brad-cabana/03.webp",
+          "original": "20231213_174021.jpg"
+        },
+        {
+          "file": "photos/brad-cabana/04.webp",
+          "original": "20231129_153347.jpg"
+        },
+        {
+          "file": "photos/brad-cabana/05.webp",
+          "original": "20230918_155524.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Rob Fireplace",
+      "slug": "rob-fireplace",
+      "category": "Creative Projects",
+      "title": "Custom Fireplace",
+      "photos": [
+        {
+          "file": "photos/rob-fireplace/02.webp",
+          "original": "20231208_152705.jpg"
+        },
+        {
+          "file": "photos/rob-fireplace/01.webp",
+          "original": "20231129_123634.jpg"
+        },
+        {
+          "file": "photos/rob-fireplace/03.webp",
+          "original": "20231129_123621.jpg"
+        },
+        {
+          "file": "photos/rob-fireplace/04.webp",
+          "original": "20231005_091427.jpg"
+        },
+        {
+          "file": "photos/rob-fireplace/05.webp",
+          "original": "20240106_110715.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Laverne Trellis",
+      "slug": "laverne-trellis",
+      "category": "Creative Projects",
+      "title": "Custom Garden Trellis",
+      "photos": [
+        {
+          "file": "photos/laverne-trellis/03.webp",
+          "original": "20201002_143021.jpg"
+        },
+        {
+          "file": "photos/laverne-trellis/01.webp",
+          "original": "20201002_152302.jpg"
+        },
+        {
+          "file": "photos/laverne-trellis/02.webp",
+          "original": "20201002_121415.jpg"
+        },
+        {
+          "file": "photos/laverne-trellis/04.webp",
+          "original": "20201002_142916.jpg"
+        },
+        {
+          "file": "photos/laverne-trellis/05.webp",
+          "original": "20201002_152313.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Mickey Stairwell",
+      "slug": "mickey-stairwell",
+      "category": "Creative Projects",
+      "title": "Custom Stairwell",
+      "photos": [
+        {
+          "file": "photos/mickey-stairwell/01.webp",
+          "original": "20230329_103544.jpg"
+        },
+        {
+          "file": "photos/mickey-stairwell/02.webp",
+          "original": "20230307_111726.jpg"
+        },
+        {
+          "file": "photos/mickey-stairwell/03.webp",
+          "original": "20230325_165831.jpg"
+        },
+        {
+          "file": "photos/mickey-stairwell/04.webp",
+          "original": "20230329_103539.jpg"
+        },
+        {
+          "file": "photos/mickey-stairwell/05.webp",
+          "original": "20230329_103515.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Denny Shed",
+      "slug": "denny-shed",
+      "category": "Creative Projects",
+      "title": "Custom Storage Shed",
+      "photos": [
+        {
+          "file": "photos/denny-shed/03.webp",
+          "original": "20220311_123940.jpg"
+        },
+        {
+          "file": "photos/denny-shed/01.webp",
+          "original": "20211019_143135.jpg"
+        },
+        {
+          "file": "photos/denny-shed/02.webp",
+          "original": "20211022_155206.jpg"
+        },
+        {
+          "file": "photos/denny-shed/04.webp",
+          "original": "20211022_155156.jpg"
+        },
+        {
+          "file": "photos/denny-shed/05.webp",
+          "original": "20211021_171201.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Mom Wainscoting",
+      "slug": "wainscoting",
+      "category": "Creative Projects",
+      "title": "Custom Wainscoting",
+      "photos": [
+        {
+          "file": "photos/wainscoting/01.webp",
+          "original": "20210411_170653.jpg"
+        },
+        {
+          "file": "photos/wainscoting/02.webp",
+          "original": "20210411_170708.jpg"
+        },
+        {
+          "file": "photos/wainscoting/03.webp",
+          "original": "20210410_150116.jpg"
+        },
+        {
+          "file": "photos/wainscoting/04.webp",
+          "original": "20210411_192144.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "root",
+      "slug": "robe-columns",
+      "category": "Creative Projects",
+      "title": "Decorative Columns",
+      "photos": [
+        {
+          "file": "photos/robe-columns/01.webp",
+          "original": "Robe Columns.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Denny Patio",
+      "slug": "denny-patio",
+      "category": "Creative Projects",
+      "title": "Denny Patio",
+      "photos": [
+        {
+          "file": "photos/denny-patio/05.webp",
+          "original": "20210824_115715.jpg"
+        },
+        {
+          "file": "photos/denny-patio/01.webp",
+          "original": "20210505_122723.jpg"
+        },
+        {
+          "file": "photos/denny-patio/02.webp",
+          "original": "20210824_115725.jpg"
+        },
+        {
+          "file": "photos/denny-patio/03.webp",
+          "original": "IMG_45791.jpg"
+        },
+        {
+          "file": "photos/denny-patio/04.webp",
+          "original": "20210313_144944.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Mom's House",
+      "slug": "moms-house",
+      "category": "Creative Projects",
+      "title": "Interior Renovation Details",
+      "photos": [
+        {
+          "file": "photos/moms-house/01.webp",
+          "original": "IMG-20240912-WA0013.jpg"
+        },
+        {
+          "file": "photos/moms-house/02.webp",
+          "original": "IMG-20240912-WA0009.jpg"
+        },
+        {
+          "file": "photos/moms-house/03.webp",
+          "original": "IMG-20240912-WA0010.jpg"
+        },
+        {
+          "file": "photos/moms-house/04.webp",
+          "original": "IMG-20240912-WA0011 RESIZE.jpg"
+        },
+        {
+          "file": "photos/moms-house/05.webp",
+          "original": "IMG-20240912-WA0002.jpg"
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "folder": "Pre-assemble Pergola",
+      "slug": "pergola",
+      "category": "Creative Projects",
+      "title": "Pergola Construction",
+      "photos": [
+        {
+          "file": "photos/pergola/01.webp",
+          "original": "IMG_3929.jpg"
+        },
+        {
+          "file": "photos/pergola/02.webp",
+          "original": "20210514_092447.jpg"
+        },
+        {
+          "file": "photos/pergola/03.webp",
+          "original": "IMG-20230729-WA0001.jpg"
+        },
+        {
+          "file": "photos/pergola/04.webp",
+          "original": "IMG-20230729-WA0000.jpg"
+        },
+        {
+          "file": "photos/pergola/05.webp",
+          "original": "20210904_171312.jpg"
+        }
+      ],
+      "skipped": []
+    }
+  ],
+  "generated": "2026-10-24"
+}
