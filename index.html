@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f8f4">
+<meta name="description" content="Explore renovation projects, custom builds, kitchens, decks, bathrooms and more from Red River Renovation, LLC.">
+<title>Our Work | Red River Renovation, LLC</title>
+<style>
+:root{--ink:#27373b;--deep:#35484d;--red:#b64e50;--aqua:#c5e7e9;--white:#fafaf6;--muted:#647378}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font-family:Georgia,'Times New Roman',serif;background:radial-gradient(ellipse at 26% 15%,#d5eeef 0%,transparent 36%),radial-gradient(ellipse at 88% 60%,#d9eeee 0%,transparent 38%),repeating-linear-gradient(110deg,transparent 0 85px,#b6dade18 90px 105px,transparent 130px 230px),#f7f8f4;min-height:100vh}
+button,a{-webkit-tap-highlight-color:transparent}
+button:focus-visible,a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+header{text-align:center;padding:35px 16px 26px;max-width:970px;margin:auto}
+.brand{font-size:clamp(32px,5vw,54px);letter-spacing:.10em;font-variant:small-caps;color:#35484d;line-height:1.08}
+.subtitle{font-size:clamp(12px,2.5vw,17px);letter-spacing:.16em;text-transform:uppercase;margin:4px 0 17px}
+.rule{height:2px;background:var(--red);position:relative;margin:0 auto 27px;max-width:800px}
+.rule:before,.rule:after{content:'◇';position:absolute;color:var(--red);font-size:24px;top:-15px}.rule:before{left:-7px}.rule:after{right:-7px}
+.eyebrow{letter-spacing:.22em;color:#855f60;font:12px system-ui,sans-serif;text-transform:uppercase}
+h1{font-size:clamp(34px,5.4vw,61px);font-weight:normal;margin:5px 0 10px;letter-spacing:.02em}
+.intro{font:14px/1.75 system-ui,sans-serif;color:var(--muted);margin:0 auto;max-width:580px}
+.wrap{width:min(1150px,94%);margin:auto}
+.section-header{display:flex;gap:20px;align-items:end;justify-content:space-between;margin:15px 0 9px}
+.section-heading{font-weight:normal;font-size:clamp(22px,3vw,31px);margin:0}.results{font:12px system-ui,sans-serif;color:var(--muted);padding-bottom:4px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;padding:9px 0 25px}
+.tab{border:1px solid #b8cacb;border-radius:2px;padding:10px 14px;background:#ffffffc9;color:#35484d;font:12px system-ui,sans-serif;cursor:pointer;transition:background .2s,color .2s}
+.tab:hover{background:#e7f1f0}.tab.active{background:var(--deep);color:white;border-color:var(--deep)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:23px 18px;padding-bottom:52px}
+.project{display:block;text-align:left;padding:0;border:1px solid #bfcdcc;background:var(--white);cursor:pointer;color:inherit;font-family:inherit;overflow:hidden;box-shadow:0 5px 18px #3b59600d;transition:transform .2s,box-shadow .2s}
+.project:hover{transform:translateY(-3px);box-shadow:0 10px 25px #3b59601c}
+.project-image{position:relative;aspect-ratio:4/3;background:#dbe8e8;overflow:hidden}
+.project-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.project:hover .project-image img{transform:scale(1.035)}
+.photo-pill{position:absolute;right:10px;bottom:10px;background:#fffefa;color:#35484d;border:1px solid #d0dcdb;padding:6px 9px;font:11px system-ui,sans-serif}
+.project-info{padding:15px 16px 17px;min-height:110px}
+.tag{font:10px system-ui,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:#956264}
+.project-title{font-size:clamp(17px,2vw,22px);font-weight:normal;line-height:1.25;margin:7px 0 5px}
+.project-link{font:12px system-ui,sans-serif;color:#62777a}
+footer{text-align:center;padding:0 0 32px}.footerline{border-top:2px solid var(--red);padding:23px 0 12px}.home{color:var(--deep);text-decoration:underline;text-underline-offset:4px;font-size:14px}.copyright{font:11px system-ui,sans-serif;color:#7b8586;margin-top:15px}
+.viewer{padding:0;border:0;background:#142226;color:white;width:min(1120px,100vw);max-width:none;max-height:min(95dvh,980px);box-shadow:0 10px 70px #0009;overflow:hidden}
+.viewer::backdrop{background:#101c21ee}
+.viewer-head{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:13px 16px;background:#182a2e}
+.viewer-title{font-size:clamp(16px,2vw,23px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.viewer-sub{font:11px system-ui,sans-serif;color:#b7c9c8;letter-spacing:.09em;text-transform:uppercase;margin-top:4px}
+.close{border:1px solid #627477;background:#263a3d;color:#fff;width:39px;height:39px;cursor:pointer;font-size:23px;flex:none}
+.stage{position:relative;display:flex;justify-content:center;align-items:center;height:min(66dvh,660px);min-height:250px;background:#0c1518;touch-action:pan-y;user-select:none}
+.stage img{max-width:100%;max-height:100%;object-fit:contain;display:block}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);border:1px solid #d7e1e1;background:#ffffffe9;color:#233e43;width:45px;height:45px;border-radius:50%;font-size:27px;cursor:pointer;z-index:2}
+.prev{left:10px}.next{right:10px}.arrow:hover{background:white}
+.viewer-bottom{padding:11px 16px 13px;background:#182a2e}
+.viewer-nav{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:10px}
+.counter,.tip{font:12px system-ui,sans-serif;color:#b5c8c8}.tip{font-size:11px}
+.thumbs{display:flex;gap:7px;overflow-x:auto;scrollbar-width:thin;align-items:center}
+.thumb{flex:0 0 68px;height:51px;padding:0;border:2px solid transparent;background:#394e51;cursor:pointer}
+.thumb.active{border-color:#e5acad}.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.viewer{max-height:100dvh}.stage{height:63dvh}}
+@media(max-width:560px){header{padding:25px 12px}.wrap{width:100%;padding:0 12px}.section-header{padding-top:0}.tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;padding:10px 0 20px}.tab{flex:none}.grid{gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}.project-info{padding:11px 10px 13px;min-height:112px}.project-title{font-size:17px}.project-image{aspect-ratio:3/4}.photo-pill{font-size:10px;right:5px;bottom:5px}.viewer{width:100vw;height:100dvh;max-height:100dvh;display:flex;flex-direction:column}.viewer:not([open]){display:none}.stage{height:auto;min-height:0;flex:1}.viewer-title{font-size:16px}.arrow{width:39px;height:39px}.viewer-bottom{padding-bottom:max(11px,env(safe-area-inset-bottom))}.thumb{flex-basis:54px;height:43px}.tip{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">RED RIVER</div><div class="subtitle">RENOVATION, LLC</div><div class="rule"></div>
+<div class="eyebrow">From Concept to Reality</div><h1>OUR WORK</h1>
+<p class="intro">Explore a collection of completed spaces, custom craftsmanship, and the transformations behind our renovation projects. Select a category or open any project to see more.</p>
+</header>
+<main class="wrap">
+<div class="section-header"><h2 class="section-heading" id="sectionHeading">Featured Projects</h2><span class="results" id="results"></span></div>
+<nav class="tabs" id="tabs" aria-label="Browse renovation categories"></nav>
+<section class="grid" id="gallery" aria-label="Renovation project gallery"></section>
+<footer><div class="footerline"><a class="home" id="back" hidden>BACK TO MAIN WEBSITE</a><div class="copyright" id="copyright"></div></div></footer>
+</main>
+<dialog id="viewer" class="viewer" aria-label="Project photo gallery">
+<div class="viewer-head"><div style="min-width:0"><div id="viewerTitle" class="viewer-title"></div><div id="viewerSub" class="viewer-sub"></div></div><button class="close" id="close" aria-label="Close gallery">×</button></div>
+<div class="stage" id="stage"><button class="arrow prev" id="prev" aria-label="Previous photo">‹</button><img id="fullPhoto" alt=""><button class="arrow next" id="next" aria-label="Next photo">›</button></div>
+<div class="viewer-bottom"><div class="viewer-nav"><span class="counter" id="counter"></span><span class="tip">← → to navigate · Esc to close · Swipe on mobile</span></div><div class="thumbs" id="thumbs" aria-label="Project photo thumbnails"></div></div>
+</dialog>
+<script>
+// To add projects in the future, update the projects array below with files in /photos/.
+const projects = [{"title":"Custom Studio","category":"Room Additions","slug":"studio","photos":["photos/studio/01.webp","photos/studio/02.webp","photos/studio/03.webp","photos/studio/04.webp","photos/studio/05.webp"]},{"title":"McPeak Home Addition","category":"Room Additions","slug":"mcpeak-addition","photos":["photos/mcpeak-addition/01.webp","photos/mcpeak-addition/02.webp","photos/mcpeak-addition/03.webp","photos/mcpeak-addition/04.webp","photos/mcpeak-addition/05.webp"]},{"title":"Sunroom Addition","category":"Room Additions","slug":"josh-sunroom","photos":["photos/josh-sunroom/01.webp","photos/josh-sunroom/02.webp","photos/josh-sunroom/03.webp","photos/josh-sunroom/04.webp","photos/josh-sunroom/05.webp"]},{"title":"Custom Cabinetry & Casework","category":"Kitchens","slug":"custom-casework","photos":["photos/custom-casework/01.webp","photos/custom-casework/02.webp","photos/custom-casework/03.webp","photos/custom-casework/04.webp","photos/custom-casework/05.webp"]},{"title":"Hill Kitchen Renovation","category":"Kitchens","slug":"hill-kitchen","photos":["photos/hill-kitchen/01.webp","photos/hill-kitchen/02.webp","photos/hill-kitchen/03.webp","photos/hill-kitchen/04.webp"]},{"title":"Coastal Wood Paneling","category":"Ship Lap","slug":"beach-wood-paneling","photos":["photos/beach-wood-paneling/01.webp"]},{"title":"Shiplap Ceiling","category":"Ship Lap","slug":"ship-lap-ceiling","photos":["photos/ship-lap-ceiling/01.webp","photos/ship-lap-ceiling/02.webp","photos/ship-lap-ceiling/03.webp","photos/ship-lap-ceiling/04.webp","photos/ship-lap-ceiling/05.webp"]},{"title":"Bathroom Renovation","category":"Bathrooms","slug":"scott-bathroom","photos":["photos/scott-bathroom/02.webp","photos/scott-bathroom/01.webp","photos/scott-bathroom/03.webp","photos/scott-bathroom/04.webp"]},{"title":"Outdoor Shower","category":"Bathrooms","slug":"joyce-outdoor-shower","photos":["photos/joyce-outdoor-shower/01.webp","photos/joyce-outdoor-shower/02.webp","photos/joyce-outdoor-shower/03.webp","photos/joyce-outdoor-shower/04.webp"]},{"title":"49th St Covered Porch","category":"Screen Porches","slug":"49th-covered-porch","photos":["photos/49th-covered-porch/01.webp","photos/49th-covered-porch/02.webp","photos/49th-covered-porch/03.webp","photos/49th-covered-porch/04.webp","photos/49th-covered-porch/05.webp"]},{"title":"Beadle Screen Porch","category":"Screen Porches","slug":"beadle-screen","photos":["photos/beadle-screen/01.webp","photos/beadle-screen/02.webp","photos/beadle-screen/03.webp","photos/beadle-screen/04.webp","photos/beadle-screen/05.webp"]},{"title":"Alpharetta Deck","category":"Decks","slug":"alpharetta-deck","photos":["photos/alpharetta-deck/04.webp","photos/alpharetta-deck/01.webp","photos/alpharetta-deck/02.webp","photos/alpharetta-deck/03.webp","photos/alpharetta-deck/05.webp"]},{"title":"Brian Deck","category":"Decks","slug":"brian-deck","photos":["photos/brian-deck/01.webp","photos/brian-deck/02.webp","photos/brian-deck/03.webp","photos/brian-deck/04.webp"]},{"title":"Deck Construction","category":"Decks","slug":"deck-gallery","photos":["photos/deck-gallery/03.webp","photos/deck-gallery/01.webp","photos/deck-gallery/02.webp"]},{"title":"Deck Repair & Restoration","category":"Decks","slug":"mickey-deck","photos":["photos/mickey-deck/05.webp","photos/mickey-deck/01.webp","photos/mickey-deck/02.webp","photos/mickey-deck/03.webp","photos/mickey-deck/04.webp"]},{"title":"Leslie Deck","category":"Decks","slug":"leslie-deck","photos":["photos/leslie-deck/04.webp","photos/leslie-deck/01.webp","photos/leslie-deck/02.webp","photos/leslie-deck/03.webp"]},{"title":"Residential Deck Renovation","category":"Decks","slug":"mom-deck","photos":["photos/mom-deck/01.webp","photos/mom-deck/02.webp","photos/mom-deck/03.webp","photos/mom-deck/04.webp","photos/mom-deck/05.webp"]},{"title":"Southport Deck Expansion","category":"Decks","slug":"southport-deck","photos":["photos/southport-deck/05.webp","photos/southport-deck/01.webp","photos/southport-deck/02.webp","photos/southport-deck/03.webp","photos/southport-deck/04.webp"]},{"title":"Tad Deck","category":"Decks","slug":"tad-deck","photos":["photos/tad-deck/02.webp","photos/tad-deck/01.webp","photos/tad-deck/03.webp","photos/tad-deck/04.webp","photos/tad-deck/05.webp"]},{"title":"Custom Gym Build","category":"Gym Builds","slug":"gym-build","photos":["photos/gym-build/02.webp","photos/gym-build/01.webp","photos/gym-build/03.webp","photos/gym-build/04.webp","photos/gym-build/05.webp"]},{"title":"Backyard Shed","category":"Creative Projects","slug":"joyce-shed","photos":["photos/joyce-shed/01.webp","photos/joyce-shed/02.webp","photos/joyce-shed/03.webp"]},{"title":"Bartlett Patio","category":"Creative Projects","slug":"bartlett-patio","photos":["photos/bartlett-patio/01.webp","photos/bartlett-patio/02.webp","photos/bartlett-patio/03.webp","photos/bartlett-patio/04.webp","photos/bartlett-patio/05.webp"]},{"title":"Ceiling Trim & Finish Work","category":"Creative Projects","slug":"ceiling-trim","photos":["photos/ceiling-trim/01.webp","photos/ceiling-trim/02.webp","photos/ceiling-trim/03.webp","photos/ceiling-trim/04.webp"]},{"title":"Custom Cabana","category":"Creative Projects","slug":"brad-cabana","photos":["photos/brad-cabana/01.webp","photos/brad-cabana/02.webp","photos/brad-cabana/03.webp","photos/brad-cabana/04.webp","photos/brad-cabana/05.webp"]},{"title":"Custom Fireplace","category":"Creative Projects","slug":"rob-fireplace","photos":["photos/rob-fireplace/02.webp","photos/rob-fireplace/01.webp","photos/rob-fireplace/03.webp","photos/rob-fireplace/04.webp","photos/rob-fireplace/05.webp"]},{"title":"Custom Garden Trellis","category":"Creative Projects","slug":"laverne-trellis","photos":["photos/laverne-trellis/03.webp","photos/laverne-trellis/01.webp","photos/laverne-trellis/02.webp","photos/laverne-trellis/04.webp","photos/laverne-trellis/05.webp"]},{"title":"Custom Stairwell","category":"Creative Projects","slug":"mickey-stairwell","photos":["photos/mickey-stairwell/01.webp","photos/mickey-stairwell/02.webp","photos/mickey-stairwell/03.webp","photos/mickey-stairwell/04.webp","photos/mickey-stairwell/05.webp"]},{"title":"Custom Storage Shed","category":"Creative Projects","slug":"denny-shed","photos":["photos/denny-shed/03.webp","photos/denny-shed/01.webp","photos/denny-shed/02.webp","photos/denny-shed/04.webp","photos/denny-shed/05.webp"]},{"title":"Custom Wainscoting","category":"Creative Projects","slug":"wainscoting","photos":["photos/wainscoting/01.webp","photos/wainscoting/02.webp","photos/wainscoting/03.webp","photos/wainscoting/04.webp"]},{"title":"Decorative Columns","category":"Creative Projects","slug":"robe-columns","photos":["photos/robe-columns/01.webp"]},{"title":"Denny Patio","category":"Creative Projects","slug":"denny-patio","photos":["photos/denny-patio/05.webp","photos/denny-patio/01.webp","photos/denny-patio/02.webp","photos/denny-patio/03.webp","photos/denny-patio/04.webp"]},{"title":"Interior Renovation Details","category":"Creative Projects","slug":"moms-house","photos":["photos/moms-house/01.webp","photos/moms-house/02.webp","photos/moms-house/03.webp","photos/moms-house/04.webp","photos/moms-house/05.webp"]},{"title":"Pergola Construction","category":"Creative Projects","slug":"pergola","photos":["photos/pergola/01.webp","photos/pergola/02.webp","photos/pergola/03.webp","photos/pergola/04.webp","photos/pergola/05.webp"]}];
+// Optional: paste the public Canva website URL between the quotes to show the "Back" link.
+const MAIN_WEBSITE_URL = '';
+const categories=['All','Room Additions','Kitchens','Ship Lap','Bathrooms','Screen Porches','Decks','Gym Builds','Creative Projects'];
+const $=id=>document.getElementById(id);
+let active='All',current=null,position=0,startX=0,startY=0;
+const images={};
+function src(path){return encodeURI(path)}
+function setFilter(category){
+ active=category; $('tabs').replaceChildren();
+ categories.forEach(c=>{const b=document.createElement('button');b.className='tab'+(active===c?' active':'');b.type='button';b.textContent=c;b.setAttribute('aria-pressed',String(active===c));b.onclick=()=>setFilter(c);$('tabs').appendChild(b)});
+ const matches=projects.filter(p=>active==='All'||p.category===active);
+ $('sectionHeading').textContent=active==='All'?'Featured Projects':active;
+ $('results').textContent=matches.length+' project'+(matches.length===1?'':'s');
+ $('gallery').replaceChildren();
+ matches.forEach(p=>{
+  const b=document.createElement('button');b.type='button';b.className='project';b.setAttribute('aria-label','View '+p.title+', '+p.photos.length+' photos');
+  const pic=document.createElement('div');pic.className='project-image';
+  const img=document.createElement('img');img.loading='lazy';img.decoding='async';img.src=src(p.photos[0]);img.alt=p.title+' — renovation photo';pic.appendChild(img);
+  const count=document.createElement('span');count.className='photo-pill';count.textContent=p.photos.length+' PHOTO'+(p.photos.length===1?'':'S');pic.appendChild(count);
+  const info=document.createElement('div');info.className='project-info';
+  const tag=document.createElement('div');tag.className='tag';tag.textContent=p.category;
+  const title=document.createElement('h3');title.className='project-title';title.textContent=p.title;
+  const view=document.createElement('span');view.className='project-link';view.textContent='View project gallery';
+  info.append(tag,title,view);b.append(pic,info);b.onclick=()=>openProject(p);$('gallery').appendChild(b);
+ });
+ try { history.replaceState(null,'','#'+encodeURIComponent(active.toLowerCase().replaceAll(' ','-'))); } catch (_) { /* Local file preview still works without history updates. */ }
+}
+function openProject(p){current=p;position=0;$('viewerTitle').textContent=p.title;$('viewerSub').textContent=p.category;renderSlide();$('viewer').showModal();}
+function renderSlide(){if(!current)return;const len=current.photos.length;position=(position+len)%len;
+ $('fullPhoto').src=src(current.photos[position]);$('fullPhoto').alt=current.title+', photograph '+(position+1)+' of '+len;
+ $('counter').textContent='Photo '+(position+1)+' of '+len;
+ $('prev').hidden=$('next').hidden=len<2;
+ $('thumbs').replaceChildren();current.photos.forEach((file,i)=>{const b=document.createElement('button');b.className='thumb'+(position===i?' active':'');b.setAttribute('aria-label','Show photo '+(i+1));b.setAttribute('aria-current',String(position===i));const img=document.createElement('img');img.src=src(file);img.alt='';img.loading='lazy';b.appendChild(img);b.onclick=()=>{position=i;renderSlide()};$('thumbs').appendChild(b)});
+ $('thumbs').children[position]?.scrollIntoView({block:'nearest',inline:'nearest'});
+}
+function move(delta){if(current){position+=delta;renderSlide()}}
+$('close').onclick=()=>$('viewer').close();$('prev').onclick=()=>move(-1);$('next').onclick=()=>move(1);
+$('viewer').onclick=e=>{if(e.target===$('viewer'))$('viewer').close()};$('viewer').onclose=()=>{current=null};
+$('stage').addEventListener('touchstart',e=>{startX=e.changedTouches[0].screenX;startY=e.changedTouches[0].screenY},{passive:true});
+$('stage').addEventListener('touchend',e=>{const dx=e.changedTouches[0].screenX-startX,dy=e.changedTouches[0].screenY-startY;if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)*1.2)move(dx<0?1:-1)},{passive:true});
+document.addEventListener('keydown',e=>{if(!$('viewer').open)return;if(e.key==='ArrowRight'){e.preventDefault();move(1)}else if(e.key==='ArrowLeft'){e.preventDefault();move(-1)}});
+if(MAIN_WEBSITE_URL.trim()){const link=$('back');link.href=MAIN_WEBSITE_URL;link.hidden=false}
+$('copyright').textContent='© '+new Date().getFullYear()+' Red River Renovation, LLC';
+const initial=decodeURIComponent(location.hash.slice(1)).replaceAll('-',' ').toLowerCase();const found=categories.find(c=>c.toLowerCase()===initial);setFilter(found||'All');
+</script>
+</body>
+</html>
