@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Projects | Red River Renovation, LLC</title>
+<meta name="theme-color" content="#f7f8f4">
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;text-align:center;padding:22px;box-sizing:border-box;background:radial-gradient(ellipse at 20% 18%,#d5eeef,transparent 42%),#f7f8f4;color:#35484d;font-family:Georgia,'Times New Roman',serif}
+main{max-width:530px}h1{font-variant:small-caps;font-size:clamp(28px,5vw,48px);letter-spacing:.08em;font-weight:normal;margin:0 0 4px}.sub{letter-spacing:.17em;text-transform:uppercase;font-size:14px;margin:0 0 14px}.rule{height:2px;background:#b64e50;margin:0 auto 28px;width:min(420px,85vw)}
+p{font:15px/1.6 system-ui,-apple-system,sans-serif;color:#586b70}.links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:22px}a{color:#35484d;border:1px solid #b3c7ca;padding:12px 16px;text-decoration:none;background:#ffffff99;font:14px system-ui,-apple-system,sans-serif}a:focus-visible{outline:3px solid #b64e50}
+</style>
+</head>
+<body><main><h1>Red River</h1><div class="sub">Renovation, LLC</div><div class="rule"></div><p role="status">Opening our projects…</p><div class="links"><a href="https://sam-jp3g.github.io/Red-River-Renovation-LLC/">Browse mobile gallery</a><a href="https://redriverrenovation.net/#projects">View original website</a></div></main>
+<script>
+// If the original Canva Projects section uses a different URL, update this value.
+const DESKTOP_PROJECTS_URL='https://redriverrenovation.net/#projects';
+const MOBILE_GALLERY_URL='https://sam-jp3g.github.io/Red-River-Renovation-LLC/';
+const mobileBrowser=/Android|iPhone|iPod|Mobile|Windows Phone/i.test(navigator.userAgent);
+const narrowScreen=window.matchMedia('(max-width: 767px)').matches;
+window.location.replace(mobileBrowser||narrowScreen?MOBILE_GALLERY_URL:DESKTOP_PROJECTS_URL);
+</script>
+</body>
+</html>
